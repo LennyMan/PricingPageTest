@@ -1,0 +1,143 @@
+
+
+.background {
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg-bottom.svg), url(images/bg-top.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom, right top;
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Montserrat', sans-serif; 
+
+}
+
+.mainBox {
+    width: 80%;
+    height: 85%;
+    
+}
+
+.titleBox{
+    width: 100%;
+    height: 20%;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: hsl(236, 72%, 79%);
+}
+
+/* BOTTON ***************************************** */
+
+.switch-btn {
+  
+    position: absolute;
+  bottom: 75%;
+  left: 49%;
+  width: 3.3rem;
+  height: 1.7rem;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  transition: var(--transition);
+    background-color: hsl(236, 72%, 79%);
+}
+
+.switch {
+    position: absolute;
+  width: 50%;
+  height: 90%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border-radius: 50%;
+    margin: 2px;
+  display: block;
+  transition: var(--transition);
+}
+/* animation button */
+
+.slide {
+    left: 40%;
+}
+
+.annual {
+    position: absolute;
+    left: 44%;
+    top: 22%;
+    color: hsl(234, 14%, 74%);
+    font-size: 15px;
+}
+
+.month {
+     position: absolute;
+    left: 53%;
+    top: 22%;
+    color: hsl(234, 14%, 74%);
+    font-size: 15px;
+}
+
+    /* PRICES BOXES *************************************/
+
+
+.priceBox {
+    width: 100%;
+    height: 70%;
+    display: flex;
+   justify-content: center;
+    
+}
+
+.box{
+    position: relative;
+    height: 100%;
+    width: 20%;;
+    background-color: hsl(240, 78%, 98%);
+    border-radius: 20px;
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+    text-align: center; 
+    padding: 20px;
+}
+
+.box:hover {
+background-color: hsl(236, 72%, 79%);
+    color: white;
+    margin: -10px;
+}
+
+.price {
+    font-size: 4rem;
+}
+
+.box button {
+    background: transparent;
+    border-radius: 10px;
+    width: 15rem;
+    height: 3rem;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
